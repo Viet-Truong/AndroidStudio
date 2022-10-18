@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">RecycleView</string>
+    <string name="app_name">Activity</string>
+    <string name="first">First Activity</string>
+    <string name="explore">CLICK ME!</string>
+    <string name="pre">PREVIOUS</string>
+    <string name="msv">2050531200354</string>
+    <string name="name">Bui Viet Truong</string>
+    <string name="second">Second Activity</string>
 </resources>

@@ -1,3 +1,3 @@
 \*\* ANDROID STUDIO
 
--   branch recycleview: List item recycle view (BT tuần 9)
+-   branch activity: Intent mainActivity to secondActivity
