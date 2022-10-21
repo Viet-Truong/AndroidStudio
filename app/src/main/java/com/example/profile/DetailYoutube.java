@@ -2,8 +2,15 @@ package com.example.profile;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.annotation.SuppressLint;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,12 +20,13 @@ import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.Abs
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 
 public class DetailYoutube extends AppCompatActivity {
-
+    Button btn, addList;
     YouTubePlayerView youTubePlayerView;
     TextView title, description, author, sub;
     String data1, data2, id, author_ref, sub_ref;
     int img;
-    ImageView authorImage;
+    ImageView authorImage, favourite;
+    int color = R.color.yellow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +40,13 @@ public class DetailYoutube extends AppCompatActivity {
         author = findViewById(R.id.author);
         sub = findViewById(R.id.sub);
         authorImage = findViewById(R.id.roundedImageView);
+        btn = findViewById(R.id.btnSub);
+        addList = findViewById(R.id.btnAddList);
+        favourite = findViewById(R.id.favourite);
         getLifecycle().addObserver(youTubePlayerView);
         getData();
         setData();
+        handleListener(btn, addList, favourite);
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
@@ -68,5 +80,28 @@ public class DetailYoutube extends AppCompatActivity {
         author.setText(author_ref);
         sub.setText(sub_ref);
         authorImage.setImageResource(img);
+    }
+
+    private void handleListener(Button btn, Button addList, ImageView favourite) {
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    btn.setBackgroundResource(R.drawable.background_btn_sub_addlist);
+                }
+            });
+
+        addList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                addList.setBackgroundResource(R.drawable.background_btn_sub_addlist);
+            }
+        });
+
+        favourite.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                favourite.setColorFilter(getResources().getColor(R.color.yellow));
+            }
+        });
     }
 }

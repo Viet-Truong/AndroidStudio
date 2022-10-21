@@ -50,7 +50,7 @@ public class InfoActivity extends AppCompatActivity {
         imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(InfoActivity.this, HomeLogin.class);
+                Intent intent = new Intent(InfoActivity.this, HomeActivity.class);
                 startActivity(intent);
             }
         });

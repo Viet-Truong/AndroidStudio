@@ -88,6 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/description" />
 
     <ImageView
+        android:id="@+id/favourite"
         android:layout_width="49dp"
         android:layout_height="51dp"
         android:layout_marginStart="56dp"
@@ -116,6 +117,7 @@
         app:layout_constraintTop_toBottomOf="@+id/roundedImageView" />
 
     <Button
+        android:id="@+id/btnAddList"
         android:layout_width="181dp"
         android:layout_height="46dp"
         android:layout_marginBottom="108dp"

@@ -66,7 +66,8 @@ public class SignIn extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(email.getText().toString().trim().equals("admin") && password.getText().toString().trim().equals("123")){
+                if((email.getText().toString().trim().equals("admin") || email.getText().toString().trim().equals("viettruong"))
+                        && (password.getText().toString().trim().equals("123") || password.getText().toString().trim().equals("12345"))){
                     Intent intent = new Intent(SignIn.this, HomeActivity.class);
                     startActivity(intent);
                 }
