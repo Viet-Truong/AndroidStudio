@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="userName">Viet Truong</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="description">Android Developer</string>
+    <string name="follow">FOLLOW</string>
+    <string name="project">Project</string>
+    <string name="projectValue">25</string>
+    <string name="follower">Follower</string>
+    <string name="followerValue">1000</string>
+    <string name="following">Following</string>
+    <string name="followingValue">5000</string>
+    <string name="about">About</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome">WELCOME</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quam quaerat ratione cum aut voluptas beatae fuga!</string>
+    <string name="about_description">Tên: Bùi Viết Trường. Mã sinh viên: 2050531200354.</string>
+    <string name="sign_in_google">Sign In With Google</string>
+    <string name="sign_in_facebook">Sign In With Facebook</string>
+    <string name="msv">2050531200354</string>
+    <string name="nameUser">Bui Viet Truong</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string name="listview">My list view</string>
+    <string name="dollar">$</string>
+    <string name="addToCart">ADD TO CART</string>
+    <string name="addBtn">ADD</string>
+
+
+    <string-array name="title">
+        <item>Hayd - Head In The Clouds</item>
+        <item>Glass Animals - Heat Waves</item>
+        <item>Nelly - Just A Dream</item>
+        <item>Giveon - Heartbreak Anniversary</item>
+        <item>Post Malone - I Like You</item>
+        <item>Sam Smith - Too Good At Goodbyes</item>
+        <item>ZAYN - Dusk Till Dawn</item>
+        <item>Anne-Marie - 2002</item>
+        <item>Everlasting Ego- Lvly</item>
+        <item>dhruv - double take</item>
+    </string-array>
+
+    <string-array name="name_song">
+        <item>Head In The Clouds</item>
+        <item>Heat Waves</item>
+        <item>Just A Dream</item>
+        <item>Heartbreak Anniversary</item>
+        <item>I Like You</item>
+        <item>Too Good At Goodbyes</item>
+        <item>Dusk Till Dawn</item>
+        <item>2002</item>
+        <item>Everlasting Ego</item>
+        <item>double take</item>
+    </string-array>
+
+    <string-array name="author">
+        <item>Hayd</item>
+        <item>Glass Animals</item>
+        <item>Nelly</item>
+        <item>Giveon</item>
+        <item>Post Malone</item>
+        <item>Sam Smith</item>
+        <item>ZAYN</item>
+        <item>Anne-Marie</item>
+        <item>Lvly</item>
+        <item>dhruv</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>11.228.360 lượt xem</item>
+        <item>412.287.996 lượt xem</item>
+        <item>647.155.062 lượt xem</item>
+        <item>306.432.823 lượt xem</item>
+        <item>20.199.550 lượt xem</item>
+        <item>1.374.621.294 lượt xem</item>
+        <item>1.913.637.926 lượt xem</item>
+        <item>701.864.943 lượt xem</item>
+        <item>70.819 lượt xem</item>
+        <item>108.333.227 lượt xem</item>
+    </string-array>
+
+    <string-array name="sub">
+        <item>194.000 người đăng kí</item>
+        <item>2.510.000 người đăng kí</item>
+        <item>4.910.000 người đăng kí</item>
+        <item>2.560.000 người đăng kí</item>
+        <item>24.600.000 người đăng kí</item>
+        <item>15.400.000 người đăng kí</item>
+        <item>15.100.000 người đăng kí</item>
+        <item>10.800.000 người đăng kí</item>
+        <item>141.000 người đăng kí</item>
+        <item>307.000 người đăng kí</item>
+    </string-array>
+
+    <string-array name="idVideo">
+        <item>-uFQzcY7YHc</item>
+        <item>mRD0-GxqHVo</item>
+        <item>Diutv2YazhI</item>
+        <item>nja_0BaQcNg</item>
+        <item>xZYHehC7TVc</item>
+        <item>J_ub7Etch2U</item>
+        <item>tt2k8PGm-TI</item>
+        <item>Il-an3K9pjg</item>
+        <item>ZL9PvuckJ0Y</item>
+        <item>uQiF1yOnzDg</item>
+    </string-array>
+</resources>
