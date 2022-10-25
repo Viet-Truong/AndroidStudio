@@ -1,4 +1,4 @@
-package com.dmt.dangtus.learnandroid;
+package com.example.contact;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.provider.Telephony;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class DetailActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.dmt.dangtus.learnandroid;
+package com.example.contact;
 
 import org.junit.Test;
 
