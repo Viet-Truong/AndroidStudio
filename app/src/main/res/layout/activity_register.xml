@@ -7,23 +7,13 @@
     tools:context=".Register"
     android:background="@color/yellow">
 
-    <ImageView
-        android:id="@+id/imgBack"
-        android:layout_width="@dimen/_28sdp"
-        android:layout_height="@dimen/_28sdp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_back" />
-
     <TextView
         android:id="@+id/signIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
-        android:text="sign_in"
+        android:text="Sign In"
         android:textColor="@color/black"
         android:textSize="@dimen/_16sdp"
         android:textStyle="bold"
@@ -35,13 +25,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="56dp"
-        android:text="sign_up"
+        android:layout_marginTop="84dp"
+        android:text="Sign Up"
         android:textColor="@color/black"
         android:textSize="@dimen/_24sdp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgBack" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -115,7 +105,7 @@
                 android:layout_marginStart="80dp"
                 android:layout_marginEnd="80dp"
                 android:background="@drawable/background_black_button_login"
-                android:text="sign_up"
+                android:text="Sign Up"
                 android:textColor="@color/white"
                 />
 
@@ -127,7 +117,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:paddingHorizontal="20dp"
-                android:text="sign_in_google"
+                android:text="Sign In with google"
                 android:background="@drawable/background_white_home_login"
                 android:drawableStart="@drawable/google"
                 android:drawableEnd="@drawable/icon_forward"
@@ -141,7 +131,7 @@
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
                 android:paddingHorizontal="20dp"
-                android:text="sign_in_facebook"
+                android:text="Sign In with facebook"
                 android:background="@drawable/background_white_home_login"
                 android:drawableStart="@drawable/facebook_logo_color"
                 android:drawableEnd="@drawable/icon_forward"

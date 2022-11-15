@@ -8,23 +8,13 @@
     android:background="@color/yellow">
 
 
-    <ImageView
-        android:id="@+id/imgBack"
-        android:layout_width="@dimen/_28sdp"
-        android:layout_height="@dimen/_28sdp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="18dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icon_back" />
-
     <TextView
         android:id="@+id/register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
-        android:text="register"
+        android:text="Register"
         android:textColor="@color/black"
         android:textSize="@dimen/_16sdp"
         android:textStyle="bold"
@@ -36,13 +26,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="56dp"
-        android:text="sign_in"
+        android:layout_marginTop="100dp"
+        android:text="Sign In"
         android:textColor="@color/black"
         android:textSize="@dimen/_24sdp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgBack" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView5"
@@ -73,26 +63,26 @@
                 android:id="@+id/editTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="40dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginEnd="24dp"
-                android:paddingHorizontal="20dp"
                 android:background="@drawable/background_edit_text"
                 android:ems="10"
                 android:inputType="textEmailAddress"
+                android:paddingHorizontal="20dp"
                 android:text="email" />
 
             <EditText
                 android:id="@+id/editTextPassword"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="20dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginEnd="24dp"
-                android:paddingHorizontal="20dp"
                 android:background="@drawable/background_edit_text"
                 android:ems="10"
                 android:inputType="textPassword"
+                android:paddingHorizontal="20dp"
                 android:text="password" />
 
             <TextView
@@ -110,42 +100,39 @@
                 android:id="@+id/btnSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="24dp"
                 android:background="@drawable/background_black_button_login"
-                android:text="sign_in"
-                android:textColor="@color/white"
-                />
+                android:text="Sign In"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btnSignInGoogle"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="50dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="24dp"
-                android:paddingHorizontal="20dp"
-                android:text="sign_in_google"
                 android:background="@drawable/background_white_home_login"
                 android:drawableStart="@drawable/google"
                 android:drawableEnd="@drawable/icon_forward"
-                />
+                android:paddingHorizontal="20dp"
+                android:text="Sign In with google" />
 
             <Button
                 android:id="@+id/btnSignInFacebook"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:layout_marginTop="30dp"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="30dp"
                 android:layout_marginEnd="24dp"
-                android:paddingHorizontal="20dp"
-                android:text="sign_in_facebook"
+                android:layout_marginBottom="@dimen/_80sdp"
                 android:background="@drawable/background_white_home_login"
                 android:drawableStart="@drawable/facebook_logo_color"
                 android:drawableEnd="@drawable/icon_forward"
-                android:layout_marginBottom="@dimen/_80sdp"
-                />
+                android:paddingHorizontal="20dp"
+                android:text="Sign In with facebook" />
 
         </LinearLayout>
     </LinearLayout>

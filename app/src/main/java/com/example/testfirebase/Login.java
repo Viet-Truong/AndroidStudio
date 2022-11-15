@@ -8,11 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
     private EditText emailEdit, passEdit;
-    private Button loginBtn, registerBtn;
+    private Button loginBtn;
+    private TextView registerBtn;
     SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +24,14 @@ public class Login extends AppCompatActivity {
         emailEdit = findViewById(R.id.editTextEmail);
         passEdit = findViewById(R.id.editTextPassword);
         loginBtn = findViewById(R.id.btnSignIn);
-        registerBtn = findViewById(R.id.btnSignUp);
+        registerBtn = findViewById(R.id.register);
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, Register.class);
+                startActivity(intent);
+            }
+        });
 
         sharedPreferences = getSharedPreferences("dataLogin", MODE_PRIVATE);
         //lay gia tri
@@ -37,11 +46,6 @@ public class Login extends AppCompatActivity {
         });
 
 
-    }
-
-    private void register() {
-        Intent intent = new Intent(Login.this, Register.class);
-        startActivity(intent);
     }
 
     public void handleSignIn() {
