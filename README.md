@@ -1,7 +1,8 @@
 \*\* ANDROID STUDIO
 
--   branch APP: App general profile, recycle view and intent frame with footer nav
--   branch listitem: List item
--   branch recycleview: List item recycle view (BT tuần 9)
--   branch activity: intent mainAc to secondAc
--   branch content_provider: get contact information from your contact in your phone and show on app Contact
+-   branch KTRA: Login and listview
+-   File APK nằm trong folder APK
+-   Đăng nhập với tài khoản:
+
+*   email: admin@gmail.com hoặc viettruong0825@gmail.com
+*   password: 123456 hoặc 1234567
