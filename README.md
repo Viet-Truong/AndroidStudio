@@ -1,4 +1,4 @@
-\*\* ANDROID STUDIO
+\*\* ANDROID STUDIO KTRA LAN 1 
 
 -   branch KTRA: Login and listview
 -   File APK nằm trong folder APK
