@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="hientaidon"
+        android:text="Present Simple Tense"
         android:textColor="@color/yellow"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
         android:id="@+id/congthuc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="S+V123123123123"
+        android:text="S+V+O"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/ketqua"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,13 +58,15 @@
         app:layout_constraintTop_toBottomOf="@+id/ketqua" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listResult"
         android:layout_width="match_parent"
-        android:layout_height="437dp"
+        android:layout_height="0dp"
         android:layout_marginTop="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/save"
+        app:layout_constraintVertical_bias="0.243"
         tools:layout_editor_absoluteX="-3dp"
-        tools:listitem="row"/>
+        tools:listitem="row" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
